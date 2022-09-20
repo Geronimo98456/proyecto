@@ -1,85 +1,152 @@
-*{padding:0px;
-    margin:0px
+* {
+    padding: 0px;
+    margin: 0px
+}
+
+body {
+    background-color: rgb(179, 164, 243)
+}
+
+header {
+   
+justify-items: center;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: normal;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: rgb(205, 255, 223);
+    opacity: 50%;
+}
+
+#navegacion {
+    background-color: rgb(214, 219, 252);
+    opacity: 70%;
+}
+
+a :hover {
+    color: darkcyan;
+}
+
+.logo{
+    width: 200px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+.fotos{
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    background-color: rgb(137, 176, 234);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(38, 38, 83);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.portadas{
+display: flex;
+justify-content: space-between;
+}
+.comedia{
+    display: flex;
+    justify-content: space-between;
+}
+
+article {
+   
+    background-color:(90, 88, 163);
+    margin: 30px;
+    padding: 10px;
+    color: rgb(38, 38, 83);
+    display: flexbox;
+}
+
+p {
+    color: rgb(0, 0, 0);
+}
+
+.imag {
+    display: flex;
+}
+.island{
+    display: flex;
+    
+}
+.karate{
+    display: flex;
+}
+
+   
+
+
+.generos{
+    
+    display: flex;row-gap: row;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 20px;
+  
+}
+
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+.in-flex{
+    flex: 1;
+    padding: 25px;
+    min-width: 250px;
+}
+    .in-flex:first-child{
+        flex: 2;
+        padding: 25px;
+        margin: 20px;
+        margin-bottom: 0px;
     }
-    body{
-        background-color:rgb(179, 164, 243)
+    .in-flex div{
+        padding: 25;
+        margin: 20px;
     }
 
-    header{
-        background-image:url('imagenes/Tini show 4.jpeg');
-        padding: 30px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        text-align: center;
-        font-size: normal;
-        color: rgb(0, 0, 0);
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        
-    }
 
-    #iddeheader{
-        background-color: rgb(205, 255, 223);
-        opacity: 50%;
-    }
+button {
+    background-color: #494ce6;
+    /* Green */
+    border: 1px;
+    border-radius: 50px;
+    color: white;
+    padding: 15px 32px;
+    margin: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: -webkit-box;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
-    #navegacion{
-        background-color: rgb(214, 219, 252);
-        opacity: 70%;
-    }
-    a :hover{
-        color: darkcyan;
-    }
-
-    li{
-        display: inline-block;
-        text-align: center;
-        padding: 5px;
-        margin: 5px;
-    }
-
-    section{
-        background-color: rgb(137, 176, 234);
-        padding: 10px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        color: rgb(38, 38, 83);
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-
-    article{
-        background-color: rgb(90, 88, 163);
-        margin: 30px;
-        padding: 10px;
-        color: rgb(38, 38, 83);
-    }
-
-    p{
-        color: rgb(0, 0, 0);
-    }
-
-    .imag{
-        display: flex;
-    }
-
-    button {
-        background-color: #494ce6; /* Green */
-        border: 1px;
-        border-radius: 50px;
-        color: white;
-        padding: 15px 32px;
-        margin: 15px;
-        text-align: center;
-        text-decoration: none;
-        display: -webkit-box;
-        font-size: 16px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-
-    footer {
-        background-color: rgb(85, 84, 151);
-        font-size: medium;
-        padding: 20px;
-        margin: 15px;
-        text-align: center;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
+footer {
+    background-color: rgb(85, 84, 151);
+    font-size: medium;
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
